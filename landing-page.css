@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
+}
+
+#content {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background: url("../foto-hotel.png");
+    background-size: cover; 
+}
+
+.content-header {
+    width: 80vw;
+    height: 100vh;
+}
+
+.content-header .menu .logo {
+    margin-top: -20px;
+    padding: 20px;
+    background: #E0B973;
+    border-radius: 0 0 30px 30px;
+}
+
+.content-header .menu .logo h1 {
+    font-size: 1.5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+
+    letter-spacing: .3rem;
+    margin-top: 20px;
+
+    color: #14274A;
+}
+
+.content-header .menu .logo p {
+    font-size: 0.7rem;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    
+    letter-spacing: .3rem;
+    margin-bottom: 10px;
+
+    color: #14274A;
+}
+
+.content-header .menu {
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-header .menu ul {
+    list-style: none;
+}
+
+.content-header .menu ul li {
+    display: inline;
+
+}
+
+.content-header .menu ul li a {
+    padding: 2px 20px;
+    display: inline-block;
+    color: white;
+
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.content-header .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-header main {
+    width: 100%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-header main .text {
+    width: 100%;
+    color: white;
+}
+
+.content-header main h1 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.content-header main h2 {
+    font-size: 5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .5rem;
+}
+
+.content-header main h3 {
+    font-size: 2rem;
+    letter-spacing: .7rem;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content-header main p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+
+    letter-spacing: .2rem;
+}
+
+.content-header main .button button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #E0B973;  
+
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-top: 40px;
+}
+
+.content-header main .scroll {
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.content-header main .scroll p {
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.content-header main .scroll img {
+    width: 30px;
+    height: 30px;
+
+    margin-top: 10px;
+}
+
+/* conteudo do hotel */
+
+main {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.content-main {
+    width: 80vw;
+    min-height: 100vh;
+
+    text-align: center;
+    color: #14274A;
+}
+
+.content-main #titulo h1 {
+    margin: 50px;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    transition: 5s;
+}
+
+.content-main .Luxury {
+    display: flex;
+    align-items: center;
+
+    text-align: start;
+
+    height: 80vh;
+}
+
+.content-main .Luxury hr {
+    width: 2px;
+    height: 180px;
+
+    background: #14274A;
+}
+
+.content-main .Luxury .textarea h1 {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+    
+    font-size: 2.5rem;
+
+    margin-left: 50px;
+}
+
+.content-main .Luxury .textarea p {
+    width: 350px;
+    padding: 20px 20px 20px 50px;
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+}
+
+.content-main .Luxury .textarea button {
+    padding: 10px 20px;
+    background: #E0B973; 
+    
+    margin-left: 50px;
+
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.content-main .Luxury img {
+    width: 628px;
+    height: 400px;
+
+    margin-left: 50px;
+}
+
+.content-main .Leave {
+    display: flex;
+    align-items: center;
+
+    text-align: start;
+
+    height: 80vh;
+}
+
+.content-main .Leave hr {
+    width: 2px;
+    height: 230px;
+
+    background: #14274A;
+}
+
+.content-main .Leave .textarea h1 {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+
+    width: 300px;
+    
+    font-size: 2.5rem;
+
+    margin-left: 50px;
+}
+
+.content-main .Leave .textarea p {
+    width: 350px;
+    padding: 20px 20px 20px 50px;
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+}
+
+.content-main .Leave .textarea button {
+    padding: 10px 20px;
+    background: #E0B973; 
+    
+    margin-left: 50px;
+
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.content-main .Leave img {
+    width: 628px;
+    height: 400px;
+
+    margin-left: 50px;
+}
+
+.content-main .content .text h1 {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+
+    font-size: 2.5rem;
+
+    margin: 10px;
+}
+
+.content-main .content .text h2 {
+    font-size: 1.1rem;
+
+    margin: 20px;
+}
+
+.content-main .content .text p {
+    font-size: 1.1rem;
+
+    font-weight: 400;
+
+    margin: 25px;
+}
+
+.content-main .content .setas {
+    margin-bottom: 60px;
+}
+
+.content-main .content .setas #Esquerda {
+    margin-right: 10px;
+}
+
+footer {
+    width: 100vw;
+    height: 20vh;
+
+    background: #14274A;
+}
+
+/* seta para cima no footer */
+
+footer::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #14274A;
+
+    position: absolute;
+
+    margin-left: 637px;
+    margin-top: -34px;
+}
+
