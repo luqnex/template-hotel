@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
 
-    background: url("./foto-hotel.png");
+    background: url("foto-hotel.png");
     background-size: cover; 
 }
 
